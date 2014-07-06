@@ -1,0 +1,7 @@
+*~
+*.bak
+.DS_Store
+*.swo
+*.swp
+.*swp
+node_modules
