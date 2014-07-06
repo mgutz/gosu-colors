@@ -4,11 +4,13 @@
 
 Use Vundle or Pathogen
 
-## Bluetiful
+## Screens
+
+bluetiful
 
 ![bluetiful colorscheme](bluetiful.png)
 
-## Illigant
+illigant
 
 ![illigant colorscheme](illigant.png)
 
