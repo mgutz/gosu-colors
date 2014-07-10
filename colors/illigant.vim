@@ -62,7 +62,7 @@ hi CursorColumn gui=NONE guifg=NONE    guibg=#f0f0f0
 hi Cursor       gui=NONE guifg=#0000ff guibg=#00e0ff
 hi lCursor      gui=NONE guifg=#f8f8f8 guibg=#8000ff
 hi CursorIM     gui=NONE guifg=#f8f8f8 guibg=#8000ff
-hi MatchParen   gui=BOLD guifg=magenta guibg=black
+hi MatchParen   gui=BOLD guifg=#ff0090 guibg=BG
 
 " Fold
 hi Folded       gui=NONE guifg=#20605c guibg=#b8e8dc
