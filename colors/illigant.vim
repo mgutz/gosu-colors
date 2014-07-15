@@ -205,8 +205,8 @@ hi link markdownUrl                 Comment
 
 """""""" NERDTree
 
-hi link NERDTreeClosable            Statement
-"hi link NERDTreeDir                 Statement
+hi link NERDTreeDir                 Statement
+hi link NERDTreeClosable            NERDTreeDir
 hi link NERDTreeDirSlash            NonText
 hi link NERDTreeExecFile            Type
 hi      NERDTreeFlag                guifg=#3e71a1 guibg=bg gui=none
