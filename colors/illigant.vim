@@ -51,10 +51,11 @@ hi VertSplit    gui=NONE guifg=#d9d6c5 guibg=#d9d6c5
 hi WildMenu     gui=BOLD guifg=#f8f8f8 guibg=#dd0000
 
 " Diff
-hi DiffText     gui=NONE guifg=#e04040 guibg=#ffd8d8
-hi DiffChange   gui=NONE guifg=#408040 guibg=#d0f0d0
-hi DiffDelete   gui=NONE guifg=#4848ff guibg=#ffd0ff
-hi DiffAdd      gui=NONE guifg=#4848ff guibg=#ffd0ff
+hi DiffChange   gui=NONE guifg=NONE guibg=#d2e0d9
+hi DiffDelete   gui=NONE guifg=BG guibg=#b24755
+hi DiffAdd      gui=NONE guifg=BG guibg=#5fa943
+hi DiffText      gui=NONE guifg=BG guibg=#5fa943
+"hi DiffText     gui=NONE guifg=#e04040 guibg=#ffd8d8
 
 " Cursor
 hi CursorLine   gui=NONE guifg=NONE    guibg=#e3e1d5
@@ -65,11 +66,10 @@ hi CursorIM     gui=NONE guifg=#f8f8f8 guibg=#8000ff
 hi MatchParen   gui=BOLD guifg=#ff0090 guibg=BG
 
 " Fold
-hi Folded       gui=NONE guifg=#20605c guibg=#b8e8dc
-hi Folded       gui=NONE guifg=#20605c guibg=#d9d6c5
+hi Folded       gui=NONE guifg=#6b494d guibg=#d9d6c5
 " link does not work with these two
-hi FoldColumn   gui=NONE guifg=#40a098 guibg=#d9d6c5
-hi SignColumn   gui=NONE guifg=#40a098 guibg=#d9d6c5
+hi FoldColumn   gui=NONE guifg=#6b494d guibg=#d9d6c5
+hi SignColumn   gui=NONE guifg=#6b494d guibg=#d9d6c5
 
 hi PMenu        gui=NONE guifg=fg      guibg=#d9d6c5
 hi PMenuSel     gui=NONE guifg=NONE    guibg=#00e0ff
